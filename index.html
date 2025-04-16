@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calzado Urbano</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+
+  <!-- Navegación -->
+  <nav class="bg-white shadow p-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Calzado Urbano</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#ofertas" class="hover:text-blue-600">Ofertas</a></li>
+        <li><a href="#galeria" class="hover:text-blue-600">Galería</a></li>
+        <li><a href="#contacto" class="hover:text-blue-600">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="h-screen flex items-center justify-center bg-blue-100 text-center">
+    <div>
+      <h2 class="text-5xl font-bold text-blue-700 mb-4">Bienvenido a Calzado Urbano</h2>
+      <p class="text-xl text-gray-700">Estilo, comodidad y tendencia en cada paso.</p>
+    </div>
+  </section>
+
+  <!-- Ofertas -->
+  <section id="ofertas" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-10 text-gray-800">Ofertas Exclusivas</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="border shadow-lg p-6 rounded-xl text-center">
+          <img src="Zapatilla urbana circa.jpg" class="mx-auto mb-4" alt="Oferta 1">
+          <h4 class="text-xl font-semibold mb-2">Zapatillas Urbanas</h4>
+          <p class="text-blue-600 font-bold">$49.990</p>
+        </div>
+        <div class="border shadow-lg p-6 rounded-xl text-center">
+          <img src="Zapatillas Futbol.jpeg" class="mx-auto mb-4" alt="Oferta 2">
+          <h4 class="text-xl font-semibold mb-2">Botines de Futbol</h4>
+          <p class="text-blue-600 font-bold">$59.990</p>
+        </div>
+        <div class="border shadow-lg p-6 rounded-xl text-center">
+          <img src="Zapatillas Basketball.webp" class="mx-auto mb-4" alt="Oferta 3">
+          <h4 class="text-xl font-semibold mb-2">Zapatillas de Basketball</h4>
+          <p class="text-blue-600 font-bold">$89.990</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria" class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-10">Galería de Productos</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <img src="Zapatilla mujer.avif" alt="galeria1" class="rounded-lg shadow">
+        <img src="skechers.jpg" alt="galeria2" class="rounded-lg shadow">
+        <img src="Trekking.jpg" alt="galeria3" class="rounded-lg shadow">
+        <img src="Campus.avif" alt="galeria4" class="rounded-lg shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contacto" class="bg-gray-800 text-gray-200 py-10 mt-10">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h4 class="text-xl font-semibold mb-4">Links de Interés</h4>
+        <ul>
+          <li><a href="#home" class="hover:underline">Inicio</a></li>
+          <li><a href="#ofertas" class="hover:underline">Ofertas</a></li>
+          <li><a href="#galeria" class="hover:underline">Galería</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-xl font-semibold mb-4">Contacto</h4>
+        <p>📞 +56 9 0800 0777</p>
+        <p>✉️ angel.calzados_urbano@gmail.com</p>
+        <p>📍 Los Angeles, Chile</p>
+      </div>
+      <div>
+        <h4 class="text-xl font-semibold mb-4">GitHub</h4>
+        <a href="https://github.com/tuusuario" target="_blank" class="text-blue-400 hover:underline">Repositorio</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
